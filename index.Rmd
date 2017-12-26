@@ -1,0 +1,17 @@
+--- 
+title: "생성 모델"
+author: "재도링"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: zedoul/generative-model-book
+description: "생성 모델에 대한 책인거시다"
+---
+
+# 시작하며
+
+뭐없음

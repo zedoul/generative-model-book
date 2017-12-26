@@ -1,0 +1,6 @@
+Package: genmodel-in-prob
+Type: Book
+Title: Generative Model in Probabilistic Approach
+Version: 0.0.1
+Imports: bookdown
+Remotes: rstudio/bookdown
