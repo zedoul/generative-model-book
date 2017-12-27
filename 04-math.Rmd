@@ -1,0 +1,17 @@
+# 수학이론 {#math}
+
+확률 분포
+
+conditional probability
+
+joint probability
+
+유사도계산
+
+log
+
+differentiation
+
+cost function
+
+activation function

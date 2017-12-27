@@ -1,0 +1,7 @@
+# 개발 환경 {#implementation}
+
+python
+tensorflow
+conda
+helloworld
+github sourcecode

@@ -1,0 +1,6 @@
+# 학습 알고리즘 {#inference}
+
+MAP
+Approximate Bayesian inference
+
+예제: MCMC, VB, Gradient Descent
