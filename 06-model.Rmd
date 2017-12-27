@@ -1,1 +1,17 @@
 # 기계학습 모델 {#model}
+
+모든 모델은 망했음.
+
+### 모델 종류 {-}
+
+Generative model
+
+Discriminative model
+
+### 모델 검증 {-}
+
+Model criticism
+
+Model selection
+
+혹은 뭐 논문볼때 나오는 것들
