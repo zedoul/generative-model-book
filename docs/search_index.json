@@ -1,14 +1,14 @@
 [
 ["index.html", "생성 모델 Chapter 1 시작하며", " 생성 모델 재도링 2017-12-27 Chapter 1 시작하며 뭐없음 "],
 ["machine-learning.html", "Chapter 2 기계학습", " Chapter 2 기계학습 기계학습 Machine Learning 은 데이터를 이용해 함수를 구현하는 기법이며, 그 전체는 학습 원리 Parameter estimation, 모델 Model, 그리고 학습 알고리즘 Inference 로 나뉜다. 각 부분은 독립적이며 필요에 따라 같은 부분에 속하는 다른 기법으로 교체 가능하다. 학습 원리는 어떻게 접근하여 데이터를 이용해 함수를 구현할 것인지 수학적으로 정의한다. 모델은 데이터로 학습할 대상이다. 학습 알고리즘은 학습 원리 기반하에 모델을 학습하는 알고리즘이다. 이들 중 학습 원리에 대한 이해가 가장 어려운데 왜냐하면 수학과 물리에 대한 지식이 프로그래머들에게 필요하지 않기 때문이다. 확률론과 미분학에 기반하고 있기에 그들에 대한 이해가 없다면 학습 원리도 이해할 수 없다. 이런 이유로 학습 알고리즘에 대한 이해도 어렵다. 왜냐하면 학습 원리를 실제로 구현하기 위해 해당 지식을 사용하며, 구현체를 이해하는데에도 수학이 필요하기 때문이다. 확률론에 기반한 기계학습은 Machine Learning in probabilistic approach, 혹은 베이지안 기법 Bayesian method 은 한국의 프로그래머들이 스타크래프트를 플레이하고 있을때인 2000년도 이전 실제로 사용할 수 있는 기계학습 방법을 제시했다. "],
-["math.html", "Chapter 3 수학이론", " Chapter 3 수학이론 확률 분포 conditional probability joint probability 유사도계산 log differentiation cost function activation function "],
-["principle.html", "Chapter 4 학습원리", " Chapter 4 학습원리 Inversion problem 베이지안 기법 \\(p(\\theta \\mid X) = \\dfrac{p(X \\mid \\theta) p(\\theta)}{\\int p(X \\mid \\theta) p(\\theta) d\\theta}\\) Intractability 이론은 이론이고 실제로 저거 계산 못함. exact, grid, approximation 이렇게 있는데 당신의 문제는 approximation 만 있다고 봐야. 그래서 근사 기법을 활용해야 함. Conditioning 과 Optimisation 이 있음 4.0.1 Conditioning vs Optimisation 각각 긍정적인 예측과 부정적인 예측의 차이 장단점 존재 Conditioning 혹은 fully bayesian Sampling (MCMC) and analytic proxy (VB) Optimisation MAP 계열 "],
-["implementation.html", "Chapter 5 개발 환경", " Chapter 5 개발 환경 python tensorflow conda helloworld github sourcecode "],
-["inference.html", "Chapter 6 학습 알고리즘", " Chapter 6 학습 알고리즘 MAP Approximate Bayesian inference 예제: MCMC, VB, Gradient Descent "],
-["model.html", "Chapter 7 기계학습 모델", " Chapter 7 기계학습 모델 모든 모델은 망했음. 모델 종류 Generative model Discriminative model 모델 검증 Model criticism Model selection 혹은 뭐 논문볼때 나오는 것들 "],
+["math.html", "Chapter 3 수학이론", " Chapter 3 수학이론 아주 기초적인 수학이론. 무엇보다도 앞으로 나올 수학식들을 어떻게 이해하면 되는지 간단히 설명. 수학 기계학습과 마찬가지로 수학은 논리와 계산으로 나뉩니다. 논리는 정의고. 해당 정의에 사용되는 요소들이 모델. 계산은 해당 정의를 어떻게 푸는지 실제로 돌리는 방식. Probability distribution 확률 분포. 가장 단순하고 기초적인 모델. conditional probability joint probability Bayes rule bayes rule. 가장 단순하고 기초적인 학습 원리이자 학습 알고리즘. 이걸 그대로 못쓰기 때문에 추후 원리와 알고리즘이 따로 놀기 시작 ㅇㅅㅇ Similarity measurement 정의. 유사도계산. Linear algebra log differentiation linear combination cost functions activation functions "],
+["principle.html", "Chapter 4 학습원리", " Chapter 4 학습원리 Inversion problem 베이지안 기법 \\(p(\\theta \\mid X) = \\dfrac{p(X \\mid \\theta) p(\\theta)}{\\int p(X \\mid \\theta) p(\\theta) d\\theta}\\) Intractability 이론은 이론이고 실제로 저거 계산 못함. exact, grid, approximation 이렇게 있는데 당신의 문제는 approximation 만 있다고 봐야. 그래서 근사 기법을 활용해야 함. Conditioning 과 Optimisation 이 있음 Conditioning vs Optimisation 각각 긍정적인 예측과 부정적인 예측의 차이 다르게 이해할 수 있습니다. 데이터에 모델을 훈련 condition 시키느냐 이건 condition 데이터에 모델을 최대한 끼워넣느냐 이건 Optimisation 이 접근 방법은 완전히 다릅니다. 장단점 존재. Conditioning 혹은 fully bayesian Sampling (MCMC) and analytic proxy (VB) Optimisation MAP 계열 Gradient descent (GD) Stochastic gradient descent (SGD) "],
+["implementation.html", "Chapter 5 개발 환경", " Chapter 5 개발 환경 python tensorflow conda helloworld github sourcecode R tidyverse "],
+["inference.html", "Chapter 6 학습 알고리즘", " Chapter 6 학습 알고리즘 MAP vs Bayesian inference Conditioning vs Optimisation 여기서는 실제로 어떻게 해결하는지 Maximum a posterior 예제: Gradient Descent Bayesian inference 예제: MCMC, VB Gradient Descent Variational Bayes MCMC "],
+["model.html", "Chapter 7 기계학습 모델", " Chapter 7 기계학습 모델 모든 모델은 망했음. 모델 종류 Generative model: Linear regression, Decoder Discriminative model: Neural Network 모델 검증 Model criticism Model selection 혹은 뭐 논문볼때 나오는 것들 "],
 ["linear-regression.html", "Chapter 8 선형회귀", " Chapter 8 선형회귀 "],
-["deep-learning.html", "Chapter 9 딥러닝", " Chapter 9 딥러닝 "],
+["neural-network.html", "Chapter 9 신경망", " Chapter 9 신경망 Neural Network "],
 ["decoder.html", "Chapter 10 디코더", " Chapter 10 디코더 "],
-["summary.html", "Chapter 11 정리", " Chapter 11 정리 "],
+["summary.html", "Chapter 11 정리", " Chapter 11 정리 기계학습의 이론을 기초부터 확인 기계학습을 실제로 구현 활용은 다음과 같이 할 수 있음 "],
 ["references.html", "References", " References "]
 ]

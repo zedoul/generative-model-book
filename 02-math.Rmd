@@ -1,17 +1,42 @@
 # 수학이론 {#math}
 
-확률 분포
+아주 기초적인 수학이론.
+무엇보다도 앞으로 나올 수학식들을 어떻게 이해하면 되는지 간단히 설명.
+
+### 수학 {-}
+
+기계학습과 마찬가지로 수학은 논리와 계산으로 나뉩니다.
+논리는 정의고.
+해당 정의에 사용되는 요소들이 모델.
+계산은 해당 정의를 어떻게 푸는지 실제로 돌리는 방식.
+
+### Probability distribution {-}
+
+확률 분포. 가장 단순하고 기초적인 모델.
 
 conditional probability
 
 joint probability
 
-유사도계산
+### Bayes rule {-}
+
+bayes rule. 가장 단순하고 기초적인 학습 원리이자 학습 알고리즘.
+
+이걸 그대로 못쓰기 때문에 추후 원리와 알고리즘이 따로 놀기 시작 ㅇㅅㅇ
+
+### Similarity measurement {-}
+
+정의.
+유사도계산.
+
+### Linear algebra {-}
 
 log
 
 differentiation
 
-cost function
+linear combination
 
-activation function
+cost functions
+
+activation functions

@@ -1,6 +1,21 @@
 # 학습 알고리즘 {#inference}
 
-MAP
-Approximate Bayesian inference
+### MAP vs Bayesian inference {-}
 
-예제: MCMC, VB, Gradient Descent
+Conditioning vs Optimisation
+
+여기서는 실제로 어떻게 해결하는지
+
+### Maximum a posterior {-}
+
+예제: Gradient Descent
+
+### Bayesian inference {-}
+
+예제: MCMC, VB
+
+### Gradient Descent {-}
+
+### Variational Bayes {-}
+
+### MCMC {-}

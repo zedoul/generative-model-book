@@ -5,3 +5,5 @@ tensorflow
 conda
 helloworld
 github sourcecode
+R
+tidyverse

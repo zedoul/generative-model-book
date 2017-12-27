@@ -4,9 +4,9 @@
 
 ### 모델 종류 {-}
 
-Generative model
+Generative model: Linear regression, Decoder
 
-Discriminative model
+Discriminative model: Neural Network
 
 ### 모델 검증 {-}
 

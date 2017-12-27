@@ -11,10 +11,15 @@ exact, grid, approximation 이렇게 있는데 당신의 문제는 approximation
 그래서 근사 기법을 활용해야 함.
 Conditioning 과 Optimisation 이 있음
 
-### Conditioning vs Optimisation
+### Conditioning vs Optimisation {-}
 
 각각 긍정적인 예측과 부정적인 예측의 차이
-장단점 존재
+
+다르게 이해할 수 있습니다.
+
+데이터에 모델을 훈련 condition 시키느냐 이건 condition
+데이터에 모델을 최대한 끼워넣느냐 이건 Optimisation
+이 접근 방법은 완전히 다릅니다. 장단점 존재.
 
 ### Conditioning {-}
 
@@ -25,3 +30,7 @@ Sampling (MCMC) and analytic proxy (VB)
 ### Optimisation {-}
 
 MAP 계열
+
+Gradient descent (GD)
+
+Stochastic gradient descent (SGD)
