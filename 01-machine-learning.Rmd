@@ -1,5 +1,7 @@
 # 기계학습 {#machine-learning}
 
+### 무엇인가 {-}
+
 기계학습 Machine Learning 은 데이터를 이용해 함수를 구현하는 기법이며, 그 전체는 학습 원리 Parameter estimation, 모델 Model, 그리고 학습 알고리즘 Inference 로 나뉜다.
 각 부분은 독립적이며 필요에 따라 같은 부분에 속하는 다른 기법으로 교체 가능하다.
 학습 원리는 어떻게 접근하여 데이터를 이용해 함수를 구현할 것인지 수학적으로 정의한다.
@@ -10,4 +12,14 @@
 이런 이유로 학습 알고리즘에 대한 이해도 어렵다.
 왜냐하면 학습 원리를 실제로 구현하기 위해 해당 지식을 사용하며, 구현체를 이해하는데에도 수학이 필요하기 때문이다.
 
+### 이슈가 뭔가 {-}
+
 확률론에 기반한 기계학습은 Machine Learning in probabilistic approach, 혹은 베이지안 기법 Bayesian method 은 한국의 프로그래머들이 스타크래프트를 플레이하고 있을때인 2000년도 이전 실제로 사용할 수 있는 기계학습 방법을 제시했다.
+
+### Approximation {-}
+
+Exact and grid: fully bayesian
+
+Explicit density: MCMC, VA, fully bayesian
+
+Implicit density:

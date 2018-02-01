@@ -25,7 +25,7 @@
 <meta name="author" content="재도링">
 
 
-<meta name="date" content="2017-12-27">
+<meta name="date" content="2018-01-08">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -67,7 +67,11 @@
 
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> 시작하며</a></li>
-<li class="chapter" data-level="2" data-path="machine-learning.html"><a href="machine-learning.html"><i class="fa fa-check"></i><b>2</b> 기계학습</a></li>
+<li class="chapter" data-level="2" data-path="machine-learning.html"><a href="machine-learning.html"><i class="fa fa-check"></i><b>2</b> 기계학습</a><ul>
+<li class="chapter" data-level="" data-path="machine-learning.html"><a href="machine-learning.html#ebacb4ec9787ec9db8eab080"><i class="fa fa-check"></i>무엇인가</a></li>
+<li class="chapter" data-level="" data-path="machine-learning.html"><a href="machine-learning.html#-"><i class="fa fa-check"></i>이슈가 뭔가</a></li>
+<li class="chapter" data-level="" data-path="machine-learning.html"><a href="machine-learning.html#approximation"><i class="fa fa-check"></i>Approximation</a></li>
+</ul></li>
 <li class="chapter" data-level="3" data-path="math.html"><a href="math.html"><i class="fa fa-check"></i><b>3</b> 수학이론</a><ul>
 <li class="chapter" data-level="" data-path="math.html"><a href="math.html#ec8898ed9599"><i class="fa fa-check"></i>수학</a></li>
 <li class="chapter" data-level="" data-path="math.html"><a href="math.html#probability-distribution"><i class="fa fa-check"></i>Probability distribution</a></li>
@@ -92,14 +96,14 @@
 <li class="chapter" data-level="" data-path="inference.html"><a href="inference.html#mcmc"><i class="fa fa-check"></i>MCMC</a></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="model.html"><a href="model.html"><i class="fa fa-check"></i><b>7</b> 기계학습 모델</a><ul>
-<li class="chapter" data-level="" data-path="model.html"><a href="model.html#-"><i class="fa fa-check"></i>모델 종류</a></li>
-<li class="chapter" data-level="" data-path="model.html"><a href="model.html#-"><i class="fa fa-check"></i>모델 검증</a></li>
+<li class="chapter" data-level="" data-path="machine-learning.html"><a href="machine-learning.html#-"><i class="fa fa-check"></i>모델 종류</a></li>
+<li class="chapter" data-level="" data-path="machine-learning.html"><a href="machine-learning.html#-"><i class="fa fa-check"></i>모델 검증</a></li>
 </ul></li>
 <li class="chapter" data-level="8" data-path="linear-regression.html"><a href="linear-regression.html"><i class="fa fa-check"></i><b>8</b> 선형회귀</a></li>
 <li class="chapter" data-level="9" data-path="neural-network.html"><a href="neural-network.html"><i class="fa fa-check"></i><b>9</b> 신경망</a></li>
 <li class="chapter" data-level="10" data-path="decoder.html"><a href="decoder.html"><i class="fa fa-check"></i><b>10</b> 디코더</a></li>
 <li class="chapter" data-level="11" data-path="summary.html"><a href="summary.html"><i class="fa fa-check"></i><b>11</b> 정리</a></li>
-<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="chapter" data-level="12" data-path="placeholder.html"><a href="placeholder.html"><i class="fa fa-check"></i><b>12</b> Placeholder</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/zedoul/generative-model-book" target="blank">Published with bookdown</a></li>
 
@@ -122,9 +126,21 @@
             <section class="normal" id="section-">
 <div id="machine-learning" class="section level1">
 <h1><span class="header-section-number">Chapter 2</span> 기계학습</h1>
+<div id="ebacb4ec9787ec9db8eab080" class="section level3 unnumbered">
+<h3>무엇인가</h3>
 <p>기계학습 Machine Learning 은 데이터를 이용해 함수를 구현하는 기법이며, 그 전체는 학습 원리 Parameter estimation, 모델 Model, 그리고 학습 알고리즘 Inference 로 나뉜다. 각 부분은 독립적이며 필요에 따라 같은 부분에 속하는 다른 기법으로 교체 가능하다. 학습 원리는 어떻게 접근하여 데이터를 이용해 함수를 구현할 것인지 수학적으로 정의한다. 모델은 데이터로 학습할 대상이다. 학습 알고리즘은 학습 원리 기반하에 모델을 학습하는 알고리즘이다. 이들 중 학습 원리에 대한 이해가 가장 어려운데 왜냐하면 수학과 물리에 대한 지식이 프로그래머들에게 필요하지 않기 때문이다. 확률론과 미분학에 기반하고 있기에 그들에 대한 이해가 없다면 학습 원리도 이해할 수 없다. 이런 이유로 학습 알고리즘에 대한 이해도 어렵다. 왜냐하면 학습 원리를 실제로 구현하기 위해 해당 지식을 사용하며, 구현체를 이해하는데에도 수학이 필요하기 때문이다.</p>
+</div>
+<div id="-" class="section level3 unnumbered">
+<h3>이슈가 뭔가</h3>
 <p>확률론에 기반한 기계학습은 Machine Learning in probabilistic approach, 혹은 베이지안 기법 Bayesian method 은 한국의 프로그래머들이 스타크래프트를 플레이하고 있을때인 2000년도 이전 실제로 사용할 수 있는 기계학습 방법을 제시했다.</p>
+</div>
+<div id="approximation" class="section level3 unnumbered">
+<h3>Approximation</h3>
+<p>Exact and grid: fully bayesian</p>
+<p>Explicit density: MCMC, VA, fully bayesian</p>
+<p>Implicit density:</p>
 
+</div>
 </div>
             </section>
 
@@ -173,17 +189,6 @@ gitbook.start({
 });
 </script>
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
-    if (location.protocol !== "file:" && /^https?:/.test(script.src))
-      script.src  = script.src.replace(/^https?:/, '');
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
 </body>
 
 </html>
